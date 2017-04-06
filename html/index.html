@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.min.css">
+</head>
+<body>
+  <div class="text">niao a </div>
+</body>
+<script src='../js/commonJs/base.js'></script>
+<script src='../js/commonJs/common.js'></script>
+<script src='../js/commonJs/jquery-1.8.2.min.js'></script>
+<script src='../js/commonJs/jquery.util.js'></script>
+<script src='../bundle.js'></script>
+<script>
+    var timestamp = new Date().getTime();
+    console.log(timestamp);
+    var date = formatDate(timestamp, 'yyyy-MM-dd');
+    console.log(date);
+    var arr = {a:['a'], b:['b']};
+    console.log(arr.sort)
+    var a = arrayToJSON(arr)
+    console.log(a)
+    console.log(_getZeroPrefixNum(2))
+</script>
+</html>
